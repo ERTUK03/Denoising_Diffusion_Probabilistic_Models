@@ -1,0 +1,14 @@
+batch_size: 96
+dataset_path: alxmamaev/flowers-recognition
+dropout: 0.1
+epochs: 500
+img_shape:
+- 3
+- 32
+- 32
+l_r: 0.0002
+model_name: model
+num_groups: 32
+num_heads: 8
+timesteps: 1000
+train_size: 0.95
